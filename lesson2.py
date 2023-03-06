@@ -79,10 +79,16 @@
 # expanded_form(70304) # return '70000 + 300 + 4'
 
 
-#
-# num = int(input("enter number: "))
-#
-# print(str(num//100 + num//10%10 + num%10))
+
+num = (input("enter number: "))
+
+for i in num:
+    if len(num) == 3:
+        lenth = 'i[0],0' + 'i[-1]'
+    elif len(num) == 2:
+        lenth = 'i[0]' + 'i[-1]'
+    else: print(i)
+
 
 
 
